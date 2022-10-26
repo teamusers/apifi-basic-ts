@@ -3,6 +3,7 @@ import { PlaywrightCrawler, Dataset } from 'crawlee';
 // Don't forget to import cheerio, we will need it later.
 import cheerio from 'cheerio';
 
+export const Crawlee2 = async () => {
 // Replace CheerioCrawler with PlaywrightCrawler
 const crawler = new PlaywrightCrawler({
     launchContext: {
@@ -61,3 +62,4 @@ await crawler.addRequests([{
 }]);
 
 await crawler.run();
+}
