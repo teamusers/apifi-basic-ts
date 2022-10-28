@@ -11,6 +11,13 @@
     "start-crawlee": "ts-node-esm ./src/crawlee.ts",
     "start-crawlee2": "ts-node-esm ./src/crawlee2.ts",
     "start-dataset": "ts-node-esm ./src/dataset.ts",
+    "start-playwright": "ts-node-esm ./src/playwright/playwright.ts",
+    "start-execute-script": "ts-node-esm ./src/playwright/executeScript.ts",
+    "start-collect-data": "ts-node-esm ./src/playwright/collectData.ts",
+    "start-intercepting": "ts-node-esm ./src/playwright/readingInterceptingRequest.ts",
+    "start-proxies": "ts-node-esm ./src/playwright/proxies.ts",
+    "start-multiple": "ts-node-esm ./src/playwright/multipleBrowser.ts",
+    "start-login": "ts-node-esm ./src/playwright/login.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
